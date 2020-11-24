@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/todo-app/static/js/main.0779130a.chunk.js",
-    "main.js.map": "/todo-app/static/js/main.0779130a.chunk.js.map",
-    "runtime-main.js": "/todo-app/static/js/runtime-main.a2eb344f.js",
-    "runtime-main.js.map": "/todo-app/static/js/runtime-main.a2eb344f.js.map",
-    "static/js/2.4a59b030.chunk.js": "/todo-app/static/js/2.4a59b030.chunk.js",
-    "static/js/2.4a59b030.chunk.js.map": "/todo-app/static/js/2.4a59b030.chunk.js.map",
-    "index.html": "/todo-app/index.html",
-    "precache-manifest.f0adeed346a65139986d25320b7b8775.js": "/todo-app/precache-manifest.f0adeed346a65139986d25320b7b8775.js",
-    "service-worker.js": "/todo-app/service-worker.js",
-    "static/js/2.4a59b030.chunk.js.LICENSE.txt": "/todo-app/static/js/2.4a59b030.chunk.js.LICENSE.txt"
+    "main.js": "/dashboard/static/js/main.0779130a.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.0779130a.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.2ec0fa51.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.2ec0fa51.js.map",
+    "static/js/2.420af975.chunk.js": "/dashboard/static/js/2.420af975.chunk.js",
+    "static/js/2.420af975.chunk.js.map": "/dashboard/static/js/2.420af975.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "precache-manifest.bad1819a794d014a87fbb36fb684345d.js": "/dashboard/precache-manifest.bad1819a794d014a87fbb36fb684345d.js",
+    "service-worker.js": "/dashboard/service-worker.js",
+    "static/js/2.420af975.chunk.js.LICENSE.txt": "/dashboard/static/js/2.420af975.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2eb344f.js",
-    "static/js/2.4a59b030.chunk.js",
+    "static/js/runtime-main.2ec0fa51.js",
+    "static/js/2.420af975.chunk.js",
     "static/js/main.0779130a.chunk.js"
   ]
 }
