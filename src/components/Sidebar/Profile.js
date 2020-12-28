@@ -22,7 +22,7 @@ const ProfileName = styled.h1`
 const Profile = () => (
 	<Container>
 		<ProfileImg src={Image} />
-		<ProfileName>Vitaliy Derda</ProfileName>
+		<ProfileName>John Doe</ProfileName>
 	</Container>
 );
 

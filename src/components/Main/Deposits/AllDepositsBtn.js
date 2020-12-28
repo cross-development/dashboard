@@ -1,5 +1,6 @@
 //Core
 import React from 'react';
+import PropTypes from 'prop-types';
 //Styles
 import styled from 'styled-components';
 
@@ -35,5 +36,13 @@ const AllDepositsBtn = ({ title }) => (
 		<Button>All {title}</Button>
 	</Container>
 );
+
+AllDepositsBtn.propTypes = {
+	title: PropTypes.string,
+};
+
+AllDepositsBtn.defaultProps = {
+	title: '',
+};
 
 export default AllDepositsBtn;

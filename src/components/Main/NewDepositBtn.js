@@ -25,7 +25,9 @@ const AddIcon = styled.span`
 
 const NewDepositBtn = () => (
 	<AddButton>
-		<AddIcon className="iconify" data-inline="false" data-icon={`mdi-light:plus`}></AddIcon>
+		<AddIcon className="iconify" data-inline="false" data-icon={`mdi-light:plus`}>
+			+
+		</AddIcon>
 	</AddButton>
 );
 

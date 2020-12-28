@@ -1,5 +1,6 @@
 //Core
 import React from 'react';
+import PropTypes from 'prop-types';
 //Styles
 import styled from 'styled-components';
 
@@ -78,7 +79,7 @@ const StatusIndicator = styled.div`
 	right: 7rem;
 `;
 
-const Deposit = ({ data }) => {
+const Deposit = ({ data = {} }) => {
 	const { property, moveInDate, rent, deposit, status } = data;
 
 	return (
@@ -119,6 +120,40 @@ const Deposit = ({ data }) => {
 			</Status>
 		</Container>
 	);
+};
+
+Deposit.propTypes = {
+	property: PropTypes.shape({
+		address: PropTypes.exact({
+			street: PropTypes.string,
+			city: PropTypes.string,
+			state: PropTypes.string,
+		}),
+
+		imageUrl: PropTypes.string,
+	}),
+
+	moveInDate: PropTypes.string,
+
+	rent: PropTypes.number,
+
+	deposit: PropTypes.shape({
+		amount: PropTypes.number,
+		type: PropTypes.string,
+	}),
+
+	status: PropTypes.shape({
+		message: PropTypes.string,
+		level: PropTypes.number,
+	}),
+};
+
+Deposit.defaultProps = {
+	property: {},
+	moveInDate: '',
+	rent: 0,
+	deposit: {},
+	status: {},
 };
 
 export default Deposit;

@@ -1,5 +1,6 @@
 //Core
 import React from 'react';
+import PropTypes from 'prop-types';
 //Styles
 import styled from 'styled-components';
 
@@ -44,5 +45,15 @@ const MenuItem = ({ title, active, icon }) => (
 		<Title active={active}>{title}</Title>
 	</Container>
 );
+
+MenuItem.propTypes = {
+	title: PropTypes.string.isRequired,
+	active: PropTypes.bool,
+	icon: PropTypes.string.isRequired,
+};
+
+MenuItem.defaultProps = {
+	active: false,
+};
 
 export default MenuItem;

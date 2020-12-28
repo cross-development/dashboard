@@ -1,5 +1,6 @@
 //Core
 import React from 'react';
+import PropTypes from 'prop-types';
 //Components
 import Deposit from './Deposit';
 import SortingBar from './SortingBar';
@@ -43,5 +44,16 @@ const Deposits = ({ title, data, count }) => (
 		<AllDepositsBtn title={title} />
 	</div>
 );
+
+Deposits.propTypes = {
+	title: PropTypes.string,
+	data: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
+	count: PropTypes.number,
+};
+
+Deposits.defaultProps = {
+	title: '',
+	count: 0,
+};
 
 export default Deposits;
